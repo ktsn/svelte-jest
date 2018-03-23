@@ -8,4 +8,19 @@ describe('Svelte Jest', () => {
     })
     expect(el.textContent).toBe('Hello World')
   })
+
+  it('should update the dom', () => {
+    const el = document.createElement('div')
+    const test = new Test({
+      target: el
+    })
+
+    expect(el.textContent).toBe('Hello World')
+
+    test.set({
+      message: 'Test'
+    })
+
+    expect(el.textContent).toBe('Hello Test')
+  })
 })
