@@ -1,7 +1,7 @@
 {
   "name": "svelte-jest",
   "version": "0.0.0",
-  "description": "",
+  "description": "Jest Svelte component transformer",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/ktsn/svelte-jest.git"
   },
-  "keywords": [],
+  "keywords": [
+    "Svelte",
+    "Jest",
+    "transformer",
+    "test",
+    "component"
+  ],
   "author": "katashin",
   "license": "MIT",
   "bugs": {
