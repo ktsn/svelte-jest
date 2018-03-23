@@ -23,4 +23,19 @@ describe('Svelte Jest', () => {
 
     expect(el.textContent).toBe('Hello Test')
   })
+
+  it('should be Svelte instance', () => {
+    const el = document.createElement('div')
+    const test = new Test({
+      target: el
+    })
+
+    expect(test.get('message')).toBe('World')
+
+    test.set({
+      message: 'Test'
+    })
+
+    expect(test.get('message')).toBe('Test')
+  })
 })
