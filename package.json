@@ -28,6 +28,11 @@
       "\\.js$": "babel-jest",
       "\\.html$": "./lib/index.js"
     },
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "html"
+    ],
     "testRegex": "/test/.+\\.spec\\.js$"
   },
   "scripts": {

@@ -18,7 +18,12 @@ Add Jest configuration:
     "transform": {
       "\\.js$": "babel-jest",
       "\\.html$": "svelte-jest"
-    }
+    },
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "html"
+    ]
   }
 }
 ```
