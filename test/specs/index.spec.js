@@ -30,12 +30,12 @@ describe('Svelte Jest', () => {
       target: el
     })
 
-    expect(test.get('message')).toBe('World')
+    expect(test.get().message).toBe('World')
 
     test.set({
       message: 'Test'
     })
 
-    expect(test.get('message')).toBe('Test')
+    expect(test.get().message).toBe('Test')
   })
 })
