@@ -1,5 +1,6 @@
 # svelte-jest
 
+[![Build Status](https://travis-ci.org/ktsn/svelte-jest.svg?branch=master)](https://travis-ci.org/ktsn/svelte-jest)
 Jest Svelte component transformer.
 
 ## Usage
