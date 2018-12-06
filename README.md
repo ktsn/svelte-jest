@@ -1,6 +1,8 @@
 # svelte-jest
 
 [![Build Status](https://travis-ci.org/ktsn/svelte-jest.svg?branch=master)](https://travis-ci.org/ktsn/svelte-jest)
+[![svelte-jest Dev Token](https://badge.devtoken.rocks/svelte-jest)](https://devtoken.rocks/package/svelte-jest)
+
 Jest Svelte component transformer.
 
 ## Usage
