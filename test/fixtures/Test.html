@@ -1,15 +1,11 @@
+<svelte:options accessors={true}/>
+
 <div>
   <p class="message">Hello { message }</p>
 </div>
 
 <script>
-  export default {
-    data() {
-      return {
-        message: 'World'
-      }
-    }
-  }
+  export let message = 'World'
 </script>
 
 <style>
