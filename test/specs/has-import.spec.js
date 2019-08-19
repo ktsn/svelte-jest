@@ -1,4 +1,4 @@
-import HasImport from '../fixtures/HasImport.html'
+import HasImport from '../fixtures/HasImport.svelte'
 
 describe('HasImport', () => {
   it('should load a component having import declaration', () => {

@@ -20,12 +20,12 @@ Add Jest configuration:
   "jest": {
     "transform": {
       "\\.js$": "babel-jest",
-      "\\.html$": "svelte-jest"
+      "\\.svelte$": "svelte-jest"
     },
     "moduleFileExtensions": [
       "js",
       "json",
-      "html"
+      "svelte"
     ]
   }
 }
@@ -34,7 +34,7 @@ Add Jest configuration:
 Then you import your Svelte component in your test code:
 
 ```js
-import Foo from '../components/Foo.html'
+import Foo from '../components/Foo.svelte'
 
 describe('Foo Component', () => {
   it('should render', () => {

@@ -26,12 +26,12 @@
   "jest": {
     "transform": {
       "\\.js$": "babel-jest",
-      "\\.html$": "./lib/index.js"
+      "\\.svelte$": "./lib/index.js"
     },
     "moduleFileExtensions": [
       "js",
       "json",
-      "html"
+      "svelte"
     ],
     "testRegex": "/test/.+\\.spec\\.js$"
   },

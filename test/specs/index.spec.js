@@ -1,4 +1,4 @@
-import Test from '../fixtures/Test.html'
+import Test from '../fixtures/Test.svelte'
 
 describe('Svelte Jest', () => {
   it('should import Svelte component', () => {
