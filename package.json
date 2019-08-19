@@ -1,6 +1,6 @@
 {
   "name": "svelte-jest",
-  "version": "1.1.0",
+  "version": "0.2.0",
   "description": "Jest Svelte component transformer",
   "main": "lib/index.js",
   "files": [
@@ -53,6 +53,6 @@
     "svelte": "^3.8.1"
   },
   "peerDependencies": {
-    "svelte": "*"
+    "svelte": "^3.0.0"
   }
 }
