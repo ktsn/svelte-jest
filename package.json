@@ -45,7 +45,7 @@
   "devDependencies": {
     "babel-jest": "^25.1.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "eslint": "^6.1.0",
+    "eslint": "^7.3.0",
     "eslint-config-ktsn": "^2.0.1",
     "eslint-config-prettier": "^6.0.0",
     "jest": "^25.1.0",
