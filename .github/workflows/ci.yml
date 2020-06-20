@@ -1,0 +1,12 @@
+name: Continuous Integration
+on: push
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: bahmutov/npm-install@v1
+      - run: npm run lint
+      - run: npm run test
