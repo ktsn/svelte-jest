@@ -48,7 +48,7 @@
     "eslint": "^7.3.0",
     "eslint-config-ktsn": "^2.0.1",
     "eslint-config-prettier": "^6.11.0",
-    "jest": "^26.0.1",
+    "jest": "^27.0.5",
     "prettier": "2.1.2",
     "svelte": "^3.23.2"
   },
